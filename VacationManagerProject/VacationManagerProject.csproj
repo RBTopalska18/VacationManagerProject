@@ -74,6 +74,7 @@
     <Content Include="Assets\Images\home.png" />
     <Content Include="Assets\Images\keyboard.jpg" />
     <Content Include="Assets\Images\magnifier256.png" />
+    <Content Include="Assets\Images\man.jpg" />
     <Content Include="Assets\Images\mng.png" />
     <Content Include="Assets\Images\team.jpg" />
     <Content Include="Assets\Lib\css\bootstrap-grid.css" />
@@ -100,6 +101,9 @@
     <Content Include="Assets\Lib\js\bootstrap.min.js" />
     <Content Include="Views\Login.aspx" />
     <Content Include="Views\Manager\Employees.aspx" />
+    <Content Include="Views\Manager\Projects.aspx" />
+    <Content Include="Views\Manager\Teams.aspx" />
+    <Content Include="Views\Manager\Vacations.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +128,27 @@
     </Compile>
     <Compile Include="Views\Manager\ManagerMaster.Master.designer.cs">
       <DependentUpon>ManagerMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Manager\Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Manager\Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Manager\Teams.aspx.cs">
+      <DependentUpon>Teams.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Manager\Teams.aspx.designer.cs">
+      <DependentUpon>Teams.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Manager\Vacations.aspx.cs">
+      <DependentUpon>Vacations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Manager\Vacations.aspx.designer.cs">
+      <DependentUpon>Vacations.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

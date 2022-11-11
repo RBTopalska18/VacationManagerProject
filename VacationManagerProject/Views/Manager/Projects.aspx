@@ -1,27 +1,30 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Manager/ManagerMaster.Master" AutoEventWireup="true" CodeBehind="Employees.aspx.cs" Inherits="VacationManagerProject.Views.Manager.Manage_Employees" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Manager/ManagerMaster.Master" AutoEventWireup="true" CodeBehind="Projects.aspx.cs" Inherits="VacationManagerProject.Views.Manager.Projects" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyContent" runat="server">
- <div class="container-fluid">
+    <div class="container-fluid">
      <div class="row">
          <div class="col">
-             <h3 class="text-center">Manage Employees</h3>
+             <h3 class="text-center">Manage Projects</h3>
          </div>
      </div>
      <div class="row">
          <div class="col-md-4">
              <div class="mb-3">
-                 <label for ="" class="form-label text-success">Employee Name:</label>
+                 <label for ="" class="form-label text-success">Project Name:</label>
                  <input type="text" placeholder="First Name" autocomplete="off" class="form-control" />
              </div>
              <div class="mb-3">
-                 <label for ="" class="form-label text-success"></label>
-                 <input type="text" placeholder="Last Name" autocomplete="off" class="form-control" />
-             </div>
-             <div class="mb-3">
-                 <label for ="" class="form-label text-success">Role ID:</label>
-                 <asp:GridView ID="GridView1" runat="server" class="form-control"></asp:GridView>
-                 <asp:DropDownList ID="DropDownList1" runat="server" class="form-control"></asp:DropDownList>
+                 <label for ="" class="form-label text-success">Team ID:</label>
+                 <asp:DropDownList ID="DropDownList1" runat="server" class="form-control">
+                     <asp:ListItem>1</asp:ListItem>
+                     <asp:ListItem>2</asp:ListItem>
+                     <asp:ListItem>3</asp:ListItem>
+                     <asp:ListItem>4</asp:ListItem>
+                     <asp:ListItem>5</asp:ListItem>
+                     <asp:ListItem>6</asp:ListItem>
+                 </asp:DropDownList>
+                        
              </div>
              <div class="row">
                  <div class="col d-grid"><asp:Button Text="Update" runat="server" class="btn-warning btn-block btn"/></div>
@@ -37,6 +40,5 @@
      </div>
 
 
- </div>
-    
+ </div> 
 </asp:Content>
