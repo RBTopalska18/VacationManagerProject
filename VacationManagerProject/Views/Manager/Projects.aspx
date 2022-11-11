@@ -29,7 +29,7 @@
              <div class="row">  
                  <div class="col d-grid"><asp:Button Text="Update" runat="server" class="btn-warning btn-block btn" ID="UpdateBtn"/></div>
                  <div class="col d-grid"><asp:Button Text="Save" runat="server" class="btn-success btn-block btn" ID="SaveBtn"/></div>
-                 <div class="col d-grid"><asp:Button Text="Delete" runat="server" class="btn-danger btn-block btn" ID="DeleteBtn"/  ></div>
+                 <div class="col d-grid"><asp:Button Text="Delete" runat="server" class="btn-danger btn-block btn" ID="DeleteBtn"  /></div>
 
              </div>
          </div>

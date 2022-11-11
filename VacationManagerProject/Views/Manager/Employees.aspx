@@ -32,7 +32,7 @@
              <div class="row">
                  <asp:Label ID="ErrMsg" runat="server" class="text-danger"></asp:Label>
                  <div class="col d-grid"><asp:Button Text="Update" runat="server" class="btn-warning btn-block btn" ID="UpdateBtn"/></div>
-                 <div class="col d-grid"><asp:Button Text="Save" runat="server" class="btn-success btn-block btn"  ID="SaveBtn" OnClick="SaveBtn_Click"/></div>
+                 <div class="col d-grid"><asp:Button Text="Save" runat="server" class="btn-success btn-block btn" ID="SaveBtn"/></div>
                  <div class="col d-grid"><asp:Button Text="Delete" runat="server" class="btn-danger btn-block btn" ID="DeleteBtn"/></div>
 
              </div>
