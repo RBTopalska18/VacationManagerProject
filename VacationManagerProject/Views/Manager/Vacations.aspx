@@ -12,23 +12,23 @@
          <div class="col-md-4">
              <div class="mb-3">
                  <label for ="" class="form-label text-success">Date From:</label>
-                 <input type="text" placeholder="Date From" autocomplete="off" class="form-control" />
+                 <input type="text" placeholder="Date From" autocomplete="off" class="form-control" id="DFromCb"/>
              </div>
              <div class="mb-3">
                  <label for ="" class="form-label text-success">Date To:</label>
-                 <input type="text" placeholder="Date To" autocomplete="off" class="form-control" />
+                 <input type="text" placeholder="Date To" autocomplete="off" class="form-control" id="DToCb" />
              </div>
              <div class="mb-3">
                  <label for ="" class="form-label text-success">Half A Day:</label>
-                 <input type="text" placeholder="" autocomplete="off" class="form-control" />
+                 <input type="text" placeholder="" autocomplete="off" class="form-control" id="HADayCb"/>
              </div>
               <div class="mb-3">
                  <label for ="" class="form-label text-success">Approved:</label>
-                 <input type="text" placeholder="Approved" autocomplete="off" class="form-control" />
+                 <input type="text" placeholder="Approved" autocomplete="off" class="form-control" id ="AproovedCb "/>
              </div>
               <div class="mb-3">
                  <label for ="" class="form-label text-success">User ID:</label>
-                 <asp:DropDownList ID="DropDownList1" runat="server" class="form-control">
+                 <asp:DropDownList ID="UIDCb" runat="server" class="form-control">
                      <asp:ListItem>1</asp:ListItem>
                      <asp:ListItem>2</asp:ListItem>
                      <asp:ListItem>3</asp:ListItem>
@@ -42,9 +42,9 @@
                         
              </div>
              <div class="row">
-                 <div class="col d-grid"><asp:Button Text="Update" runat="server" class="btn-warning btn-block btn"/></div>
-                 <div class="col d-grid"><asp:Button Text="Save" runat="server" class="btn-success btn-block btn"/></div>
-                 <div class="col d-grid"><asp:Button Text="Delete" runat="server" class="btn-danger btn-block btn"/></div>
+                 <div class="col d-grid"><asp:Button Text="Update" runat="server" class="btn-warning btn-block btn" ID="UpdateBtn"/></div>
+                 <div class="col d-grid"><asp:Button Text="Save" runat="server" class="btn-success btn-block btn" ID="SaveBtn"/></div>
+                 <div class="col d-grid"><asp:Button Text="Delete" runat="server" class="btn-danger btn-block btn" ID="DeleteBtn"/></div>
 
              </div>
          </div>

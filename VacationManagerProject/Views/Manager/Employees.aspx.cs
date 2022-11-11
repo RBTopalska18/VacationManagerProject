@@ -7,11 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace VacationManagerProject.Views.Manager
 {
+
     public partial class Manage_Employees : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
+        
+        
     }
 }
